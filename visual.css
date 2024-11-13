@@ -1,0 +1,51 @@
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    border: 3px;
+    border-style: dotted;
+    border-color: rgb(255, 78, 146);
+    background-color: light rgb(193, 165, 232);
+}
+
+div{
+    border: 3px;
+    border-style: dotted;
+    border-color: rgb(255, 78, 146);
+    background-color: light rgb(150, 120, 192);
+}
+
+i{
+    font-size: 40px;
+}
+
+small{
+    color:rgb(80, 120, 180)
+}
+
+time{
+    text-decoration: dotted;
+}
+
+p{
+    font-size: 20px;
+    padding: 20px;
+    color: blueviolet;
+    background-color: rgb(132, 177, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50 px;
+}
+
+p:hover {
+    color:white;
+    font-size: 20px;
+
+}
+
+button{
+    color: rgb(121, 13, 112);
+}
