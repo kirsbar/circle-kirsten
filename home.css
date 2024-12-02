@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: blanchedalmond;
+    color: lavender;
+}
+
+.grid {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: crimson;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid rgb(253, 253, 103);
+    width: 50%;
+    /* margin: 0 auto 15px auto; */
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 42px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.cloud-link {
+    background-color: white !important;
+    border-radius: 50%;
+    opacity: 1;
+    width: 200px;
+    padding: 5px;
+    position: fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+.active {
+    background: maroon;
+    font-family: monospace;
+}
+
+.active a {
+    color: pink;
+}
+
+#button {
+    background-color: burlywood;
+}
