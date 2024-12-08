@@ -5,11 +5,15 @@ html{
     box-sizing: inherit;
 }
 
+h1{
+    color:rgb(121, 13, 112);
+}
+
 body{
     border: 3px;
     border-style: dotted;
     border-color: rgb(255, 78, 146);
-    background-color: salmon;
+    background-color: lavenderblush;
 }
 
 div{
